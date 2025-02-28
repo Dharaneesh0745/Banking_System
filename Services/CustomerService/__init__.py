@@ -11,7 +11,7 @@ class CustomerService:
     def create_customer(self, customer_schema: CustomerSchema):
         new_customer = Customer(customer_schema)
         result, customer = self.customer_dao.add_customer_to_database(new_customer)
-        if result:
+        if result and customer:
             CustomerDisplay.customer_created(customer)
 
     def get_customer_data(self, phone_number):

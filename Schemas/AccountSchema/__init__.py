@@ -20,4 +20,4 @@ class AccountSchema(BaseModel):
     monthly_fee: Optional[float] = None
 
     class Config:
-        orm_mode = True
+        from_attributes = True

@@ -32,9 +32,9 @@ class AccountDAO:
         except Exception as e:
             AccountException.create_account_exception(e)
 
-    # def fetch_all_my_accounts(self, phone_number):
-    #     query = "SELECT * FROM accounts WHERE customer_phone_number = %s"
-    #     try:
-    #         return self.db.fetchall(query, (phone_number,))
-    #     except Exception as e:
-    #         AccountException.fetch_account_exception(e)
+    def fetch_all_my_accounts(self, phone_number):
+        query = "SELECT * FROM accounts WHERE customer_phone_number = %s"
+        try:
+            return self.db.fetchall(query, (phone_number,))
+        except Exception as e:
+            AccountException.fetch_account_exception(e)

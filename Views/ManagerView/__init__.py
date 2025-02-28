@@ -6,13 +6,11 @@ from Views.ManagerView.ManagerGetInput import ManagerGetInput
 from Controllers.CustomerController import CustomerController
 
 class ManagerView:
-
     def __init__(self, customer_controller: CustomerController, account_controller: AccountController):
         self.customer_controller = customer_controller
         self.account_controller = account_controller
 
     def main(self):
-
         while True:
             ManagerDisplay.manager_options()
             operation = ManagerGetInput.get_manager_operation()
@@ -25,6 +23,8 @@ class ManagerView:
                 case 2:
                     phone_number = CustomerGetInput.get_customer_phone_number()
                     customer_data = self.customer_controller.get_customer_data(phone_number)
+                    print(customer_data)
+                    pass
                     if not customer_data is None:
                         CustomerDisplay.account_type_options()
                         account_type = CustomerGetInput.get_account_type()

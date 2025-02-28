@@ -5,32 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8924a4aa-1e2b-4900-abd7-dde9121abd47" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/Config/DB_Config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/AccountController/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/CustomerController/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAO/AccountDAO/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAO/CustomerDAO/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exceptions/AccountException/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exceptions/CustomerException/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exceptions/DatabaseException/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Accounts/AccountModel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Accounts/CurrentAccountModel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Accounts/SavingsAccountModel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/CustomerModel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schemas/AccountSchema/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schemas/CustomerSchema/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/AccountService/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/CustomerService/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/CustomerView/CustomerDisplay.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/CustomerView/CustomerGetInput.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/CustomerView/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/MainView/MainDisplay.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/MainView/MainGetInput.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/ManagerView/ManagerDisplay.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/ManagerView/ManagerGetInput.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/ManagerView/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AccountController/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountController/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAO/AccountDAO/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/AccountDAO/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/CustomerModel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/CustomerModel/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schemas/AccountSchema/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/AccountSchema/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schemas/CustomerSchema/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/CustomerSchema/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AccountService/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AccountService/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/CustomerService/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/CustomerService/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/CustomerView/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CustomerView/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/ManagerView/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/ManagerView/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,18 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Dharaneesh0745"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Dharaneesh0745&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Dharaneesh0745/Banking_System.git",
-    "accountId": "982751df-84b9-463a-a1a0-efa3401e4743"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Dharaneesh0745/Banking_System.git&quot;,
+    &quot;accountId&quot;: &quot;982751df-84b9-463a-a1a0-efa3401e4743&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -72,6 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.__init__.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",

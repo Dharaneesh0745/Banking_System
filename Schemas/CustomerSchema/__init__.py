@@ -12,4 +12,4 @@ class CustomerSchema(BaseModel):
     aadhar_number: str = Field(..., min_length=12, max_length=20)
 
     class Config:
-        orm_mode = True
+        form_attributes = True

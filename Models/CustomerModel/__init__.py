@@ -13,4 +13,4 @@ class Customer:
         self.aadhar_number = customer_data.aadhar_number
 
     def __str__(self) -> str:
-        return f"Customer [Name: {self.name}, DOB: {self.dob}, City: {self.city}, Pincode: {self.pincode}, Phone Number: {self.phone_number}, Email: {self.email}, Aadhar Number: {self.aadhar_number}]"
+        return f"Customer [Customer ID: {self.customer_id}, Name: {self.name}, DOB: {self.dob}, City: {self.city}, Pincode: {self.pincode}, Phone Number: {self.phone_number}, Email: {self.email}, Aadhar Number: {self.aadhar_number}]"

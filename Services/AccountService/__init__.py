@@ -19,10 +19,10 @@ class AccountService:
         if result:
             CustomerDisplay.savings_account_created(account)
 
-    # def get_all_my_accounts(self, phone_number):
-    #     my_accounts = self.account_dao.fetch_all_my_accounts(phone_number)
-    #
-    #     if not my_accounts:
-    #         CustomerDisplay.account_not_found()
-    #         return None
-    #     return my_accounts
+    def get_all_my_accounts(self, phone_number):
+        my_accounts = self.account_dao.fetch_all_my_accounts(phone_number)
+
+        if not my_accounts:
+            CustomerDisplay.account_not_found()
+            return None
+        return my_accounts
