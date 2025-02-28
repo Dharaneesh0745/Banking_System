@@ -26,3 +26,11 @@ class AccountService:
             CustomerDisplay.account_not_found()
             return None
         return my_accounts
+
+    def get_account_balance(self, account_number):
+        my_balance = self.account_dao.get_account_balance_from_db(account_number)
+
+        if not my_balance:
+            CustomerDisplay.account_not_found()
+            return None
+        return my_balance

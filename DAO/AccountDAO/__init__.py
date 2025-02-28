@@ -38,3 +38,10 @@ class AccountDAO:
             return self.db.fetchall(query, (phone_number,))
         except Exception as e:
             AccountException.fetch_account_exception(e)
+
+    def get_account_balance_from_db(self, account_number):
+        query = "SELECT balance from accounts WHERE account_number = %s"
+        try:
+            return self.db.fetchone(query, (account_number,))
+        except Exception as e:
+            AccountException.fetch_account_exception(e)

@@ -27,3 +27,7 @@ class AccountController:
     def get_all_my_accounts(self, phone_number):
         my_accounts = self.account_service.get_all_my_accounts(phone_number)
         return my_accounts if my_accounts else None
+
+    def get_account_balance(self, account_number):
+        my_balance = self.account_service.get_account_balance(account_number)
+        return my_balance[0] if isinstance(my_balance, tuple) else my_balance if my_balance else None

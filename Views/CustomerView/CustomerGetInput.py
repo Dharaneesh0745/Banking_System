@@ -33,3 +33,7 @@ class CustomerGetInput:
     @staticmethod
     def get_customer_operation():
         return int(input("Enter customer operation: "))
+
+    @staticmethod
+    def get_customer_account_number():
+        return input("Enter account number: ")

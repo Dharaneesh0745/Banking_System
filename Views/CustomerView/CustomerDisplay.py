@@ -71,3 +71,7 @@ class CustomerDisplay:
             elif account_type == "Current":
                 account_obj = CurrentAccount(account_data)
                 print(account_obj)
+
+    @staticmethod
+    def display_account_balance(balance, account_number):
+        print(f"Available balance: {balance} | Account number: {account_number}")

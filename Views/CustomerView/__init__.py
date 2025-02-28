@@ -22,5 +22,13 @@ class CustomerView:
                     my_accounts = self.account_controller.get_all_my_accounts(phone_number)
                     CustomerDisplay.display_my_accounts(my_accounts)
 
+                case 2:
+                    phone_number = CustomerGetInput.get_customer_phone_number()
+                    my_accounts = self.account_controller.get_all_my_accounts(phone_number)
+                    CustomerDisplay.display_my_accounts(my_accounts)
+                    account_number = CustomerGetInput.get_customer_account_number()
+                    my_balance = self.account_controller.get_account_balance(account_number)
+                    CustomerDisplay.display_account_balance(my_balance, account_number)
+
                 case 0:
                     return
