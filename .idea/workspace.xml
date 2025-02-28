@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8924a4aa-1e2b-4900-abd7-dde9121abd47" name="Changes" comment="developed withdraw feature for accounts.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="8924a4aa-1e2b-4900-abd7-dde9121abd47" name="Changes" comment="developed readme.md for viewers.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740733677057</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="developed readme.md for viewers.">
+      <option name="closed" value="true" />
+      <created>1740734728166</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740734728166</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +123,7 @@
     <MESSAGE value="fixed errors on infinite object/instance loop." />
     <MESSAGE value="created check balance for user  accont." />
     <MESSAGE value="developed withdraw feature for accounts." />
-    <option name="LAST_COMMIT_MESSAGE" value="developed withdraw feature for accounts." />
+    <MESSAGE value="developed readme.md for viewers." />
+    <option name="LAST_COMMIT_MESSAGE" value="developed readme.md for viewers." />
   </component>
 </project>
