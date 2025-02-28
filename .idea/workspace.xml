@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8924a4aa-1e2b-4900-abd7-dde9121abd47" name="Changes" comment="developed readme.md for viewers.">
+    <list default="true" id="8924a4aa-1e2b-4900-abd7-dde9121abd47" name="Changes" comment="updated requirements.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AccountController/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountController/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAO/AccountDAO/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/AccountDAO/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/AccountService/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AccountService/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/CustomerView/CustomerDisplay.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CustomerView/CustomerDisplay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/CustomerView/CustomerGetInput.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CustomerView/CustomerGetInput.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/CustomerView/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CustomerView/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740734728166</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated requirements.txt">
+      <option name="closed" value="true" />
+      <created>1740759549470</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740759549470</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,6 +139,7 @@
     <MESSAGE value="created check balance for user  accont." />
     <MESSAGE value="developed withdraw feature for accounts." />
     <MESSAGE value="developed readme.md for viewers." />
-    <option name="LAST_COMMIT_MESSAGE" value="developed readme.md for viewers." />
+    <MESSAGE value="updated requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated requirements.txt" />
   </component>
 </project>

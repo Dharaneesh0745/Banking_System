@@ -90,3 +90,11 @@ class CustomerDisplay:
     @staticmethod
     def withdraw_amount_zero_error():
         print("Withdraw amount should be greater than zero.")
+
+    @staticmethod
+    def deposit_amount_zero_error():
+        print("Deposit amount should be greater than zero.")
+
+    @staticmethod
+    def display_deposit_amount_balance_status(balance, deposit_amount):
+        print(f"You have deposited amount: {deposit_amount}, Total balance: {balance}")

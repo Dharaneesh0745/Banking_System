@@ -1,3 +1,5 @@
+from Tools.scripts.make_ctype import values
+
 from Database import Database
 from Models.Accounts.CurrentAccountModel import CurrentAccount
 from Models.Accounts.SavingsAccountModel import SavingsAccount
@@ -54,6 +56,15 @@ class AccountDAO:
             AccountException.fetch_account_exception(e)
 
     def withdraw_amount_from_db(self, account_number, new_balance):
+        query = "UPDATE accounts SET balance = %s WHERE account_number = %s"
+        values = (new_balance, account_number)
+        try:
+            self.db.execute(query, values)
+            return True
+        except Exception as e:
+            AccountException.fetch_account_exception(e)
+
+    def deposit_amount_to_account_in_db(self, account_number, new_balance):
         query = "UPDATE accounts SET balance = %s WHERE account_number = %s"
         values = (new_balance, account_number)
         try:

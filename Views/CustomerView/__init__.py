@@ -30,6 +30,21 @@ class CustomerView:
                     my_balance = self.account_controller.get_account_balance(account_number)
                     CustomerDisplay.display_account_balance(my_balance, account_number)
 
+                case 3:
+                    phone_number = CustomerGetInput.get_customer_phone_number()
+                    my_accounts = self.account_controller.get_all_my_accounts(phone_number)
+                    CustomerDisplay.display_my_accounts(my_accounts)
+                    account_number = CustomerGetInput.get_customer_account_number()
+                    deposit_amount = CustomerGetInput.get_deposit_amount()
+
+                    if deposit_amount  == 0:
+                        CustomerDisplay.deposit_amount_zero_error()
+                        continue
+
+                    balance = self.account_controller.deposit_amount_to_account(account_number, deposit_amount)
+                    if balance:
+                        CustomerDisplay.display_deposit_amount_balance_status(balance, deposit_amount)
+
                 case 4:
                     phone_number = CustomerGetInput.get_customer_phone_number()
                     my_accounts = self.account_controller.get_all_my_accounts(phone_number)

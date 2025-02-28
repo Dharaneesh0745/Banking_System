@@ -34,3 +34,6 @@ class AccountController:
 
     def withdraw_amount_from_account(self, account_number, withdraw_amount):
         return self.account_service.withdraw_amount_from_account(account_number, withdraw_amount)
+
+    def deposit_amount_to_account(self, account_number, deposit_amount):
+        return self.account_service.deposit_amount_to_account(account_number, deposit_amount)
