@@ -34,3 +34,30 @@ class AccountService:
             CustomerDisplay.account_not_found()
             return None
         return my_balance
+
+    def withdraw_amount_from_account(self, account_number, withdraw_amount):
+        my_account = self.account_dao.fetch_one_account(account_number)
+        if my_account:
+            account_id, account_number, customer_id, customer_phone_number, account_type, balance, date_opened, status, interest_rate, minimum_balance, overdraft_limit, monthly_fee = my_account
+            account_schema = AccountSchema(account_id=account_id, account_number=account_number, customer_id=customer_id, customer_phone_number=customer_phone_number, account_type=account_type, balance=balance, date_opened=date_opened, status=status, interest_rate=interest_rate, minimum_balance=minimum_balance, overdraft_limit=overdraft_limit, monthly_fee=monthly_fee)
+
+            if account_type == "Savings":
+                account = SavingsAccount(account_schema)
+                if account.balance - withdraw_amount >= account.minimum_balance:
+                    new_balance = account.balance - withdraw_amount
+                    self.account_dao.withdraw_amount_from_db(account_number, new_balance)
+                    return new_balance
+                else:
+                    CustomerDisplay.minimum_balance_error(account.balance, account.minimum_balance)
+            elif account_type == "Current":
+                account = CurrentAccount(account_schema)
+                if account.balance - withdraw_amount >= 0:
+                    new_balance = account.balance - withdraw_amount
+                    self.account_dao.withdraw_amount_from_db(account_number, new_balance)
+                    return new_balance
+                else:
+                    CustomerDisplay.minimum_balance_error(account.balance, 0)
+
+        else:
+            CustomerDisplay.account_not_found()
+            return None

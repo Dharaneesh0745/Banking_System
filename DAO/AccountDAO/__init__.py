@@ -39,9 +39,25 @@ class AccountDAO:
         except Exception as e:
             AccountException.fetch_account_exception(e)
 
+    def fetch_one_account(self, account_number):
+        query = "SELECT * FROM accounts WHERE account_number = %s"
+        try:
+            return self.db.fetchone(query, (account_number,))
+        except Exception as e:
+            AccountException.fetch_account_exception(e)
+
     def get_account_balance_from_db(self, account_number):
         query = "SELECT balance from accounts WHERE account_number = %s"
         try:
             return self.db.fetchone(query, (account_number,))
+        except Exception as e:
+            AccountException.fetch_account_exception(e)
+
+    def withdraw_amount_from_db(self, account_number, new_balance):
+        query = "UPDATE accounts SET balance = %s WHERE account_number = %s"
+        values = (new_balance, account_number)
+        try:
+            self.db.execute(query, values)
+            return True
         except Exception as e:
             AccountException.fetch_account_exception(e)

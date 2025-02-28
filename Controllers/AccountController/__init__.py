@@ -31,3 +31,6 @@ class AccountController:
     def get_account_balance(self, account_number):
         my_balance = self.account_service.get_account_balance(account_number)
         return my_balance[0] if isinstance(my_balance, tuple) else my_balance if my_balance else None
+
+    def withdraw_amount_from_account(self, account_number, withdraw_amount):
+        return self.account_service.withdraw_amount_from_account(account_number, withdraw_amount)

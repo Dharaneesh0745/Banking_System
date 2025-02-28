@@ -30,5 +30,20 @@ class CustomerView:
                     my_balance = self.account_controller.get_account_balance(account_number)
                     CustomerDisplay.display_account_balance(my_balance, account_number)
 
+                case 4:
+                    phone_number = CustomerGetInput.get_customer_phone_number()
+                    my_accounts = self.account_controller.get_all_my_accounts(phone_number)
+                    CustomerDisplay.display_my_accounts(my_accounts)
+                    account_number = CustomerGetInput.get_customer_account_number()
+                    withdraw_amount = CustomerGetInput.get_withdraw_amount()
+
+                    if withdraw_amount == 0:
+                        CustomerDisplay.withdraw_amount_zero_error()
+                        continue
+
+                    balance = self.account_controller.withdraw_amount_from_account(account_number, withdraw_amount)
+                    if balance:
+                        CustomerDisplay.display_withdraw_amount_balance_status(balance, withdraw_amount)
+
                 case 0:
                     return

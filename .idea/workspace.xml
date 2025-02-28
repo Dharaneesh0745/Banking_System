@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8924a4aa-1e2b-4900-abd7-dde9121abd47" name="Changes" comment="fixed errors on infinite object/instance loop.">
-      <change afterPath="$PROJECT_DIR$/Services/BankServices/__init__.py" afterDir="false" />
+    <list default="true" id="8924a4aa-1e2b-4900-abd7-dde9121abd47" name="Changes" comment="created check balance for user  accont.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/AccountController/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountController/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAO/AccountDAO/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/AccountDAO/__init__.py" afterDir="false" />
@@ -13,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/Views/CustomerView/CustomerDisplay.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CustomerView/CustomerDisplay.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/CustomerView/CustomerGetInput.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CustomerView/CustomerGetInput.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/CustomerView/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CustomerView/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,12 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740720113404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="created check balance for user  accont.">
+      <option name="closed" value="true" />
+      <created>1740728596410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740728596410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="fixed errors on infinite object/instance loop." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed errors on infinite object/instance loop." />
+    <MESSAGE value="created check balance for user  accont." />
+    <option name="LAST_COMMIT_MESSAGE" value="created check balance for user  accont." />
   </component>
 </project>

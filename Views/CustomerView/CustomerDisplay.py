@@ -75,3 +75,18 @@ class CustomerDisplay:
     @staticmethod
     def display_account_balance(balance, account_number):
         print(f"Available balance: {balance} | Account number: {account_number}")
+
+    @staticmethod
+    def display_withdraw_amount_balance_status(balance, withdraw_amount):
+        print(f"You have withdraw: {withdraw_amount}, remaining balance: {balance}")
+
+    @staticmethod
+    def minimum_balance_error(balance, minimum_balance):
+        if minimum_balance != 0:
+            print(f"You have balance of only: {balance}, with minimum balance: {minimum_balance}")
+        else:
+            print(f"You have balance of only: {balance}")
+
+    @staticmethod
+    def withdraw_amount_zero_error():
+        print("Withdraw amount should be greater than zero.")

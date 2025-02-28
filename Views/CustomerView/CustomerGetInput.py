@@ -37,3 +37,7 @@ class CustomerGetInput:
     @staticmethod
     def get_customer_account_number():
         return input("Enter account number: ")
+
+    @staticmethod
+    def get_withdraw_amount():
+        return float(input("Enter withdraw amount: "))
