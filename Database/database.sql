@@ -31,3 +31,20 @@ CREATE TABLE accounts (
     -- Foreign Key Constraint
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id) ON DELETE CASCADE
 );
+
+
+CREATE TABLE transactions (
+    transaction_id INT AUTO_INCREMENT PRIMARY KEY,
+    account_id INT NOT NULL,
+    transaction_type ENUM('Deposit', 'Withdrawal', 'Transfer', 'Bill Payment') NOT NULL,
+    amount DECIMAL(15,2) NOT NULL,
+    transaction_mode ENUM('Cash', 'Cheque', 'UPI', 'Debit Card', 'Credit Card') NOT NULL,
+    transaction_status ENUM('Pending', 'Completed', 'Failed') NOT NULL DEFAULT 'Pending',
+    transaction_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    reference_number VARCHAR(50) UNIQUE NULL,
+    to_account_id INT NULL,
+
+    -- Foreign Key Constraints
+    FOREIGN KEY (account_id) REFERENCES accounts(account_id) ON DELETE CASCADE,
+    FOREIGN KEY (to_account_id) REFERENCES accounts(account_id) ON DELETE CASCADE
+);

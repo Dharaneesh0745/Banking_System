@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8924a4aa-1e2b-4900-abd7-dde9121abd47" name="Changes" comment="updated requirements.txt">
+    <list default="true" id="8924a4aa-1e2b-4900-abd7-dde9121abd47" name="Changes" comment="developed deposit amount to account feature.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AccountController/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AccountController/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAO/AccountDAO/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAO/AccountDAO/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/AccountService/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/AccountService/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/CustomerView/CustomerDisplay.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CustomerView/CustomerDisplay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/CustomerView/CustomerGetInput.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CustomerView/CustomerGetInput.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/CustomerView/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CustomerView/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Database/database.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +60,39 @@
       <recent name="C:\Users\DHARANEESH\Python Projects\BMS2\Models\Accounts" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BMS2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
+        <option value="bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43" />
       </set>
     </attachedChunks>
   </component>
@@ -130,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740759549470</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="developed deposit amount to account feature.">
+      <option name="closed" value="true" />
+      <created>1740762586667</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740762586667</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +171,7 @@
     <MESSAGE value="developed withdraw feature for accounts." />
     <MESSAGE value="developed readme.md for viewers." />
     <MESSAGE value="updated requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated requirements.txt" />
+    <MESSAGE value="developed deposit amount to account feature." />
+    <option name="LAST_COMMIT_MESSAGE" value="developed deposit amount to account feature." />
   </component>
 </project>
